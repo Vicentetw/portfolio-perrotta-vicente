@@ -1,0 +1,74 @@
+
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 2rem;
+}
+.fotoperfil{
+    border-width: 0.5rem;
+      border-style: solid;
+      border-color: #f0f6fb;
+      border-radius: 50%;
+      -webkit-filter: grayscale(100%); /* para poner foto en blanco y negro Chrome, Safari, Opera */
+      filter: grayscale(100%);
+      margin-top: -120px;
+  margin-left: 10px;
+  position: absolute;
+  max-height: 150px;
+  
+  
+  }
+  .perfil{
+      position: unset;
+      width: 15%;
+      height: 15%;
+      background-color: transparent;
+      
+  }
+  /*for animation text Vicente*/
+.line {
+    position: relative;
+   /* top: 50%; margin: 0 auto;
+  
+   */
+   margin-top: 20px;
+   margin-bottom: 15px;
+   border-width: 15px;
+    width: 16em;
+    color: #474747;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: initial;
+    white-space: nowrap;
+    overflow: hidden;
+    
+  }
+  
+  /*Animation poner en steps la cantidad de caracteres*/
+  .anim-typewriter {
+    animation: typewriter 4s steps(38) 1s 1 normal both,
+    blinkTextCursor 500ms steps(38) infinite normal;
+  }
+  @keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 18em;
+    }
+  }
+  
+  @keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+  }
+  /* container flud personalizado */
+  .container-fluid{
+    background-color: #6c63ff;
+    border-radius: 2rem;
+    height: 70%;
+  }

@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acerca.component.css']
 })
 export class AcercaComponent implements OnInit {
-
+  name = 'Perrotta Vicente';
+  iam =' Full Stack Developer';
+    public persona:any
   constructor() { }
 
   ngOnInit(): void {
